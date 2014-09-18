@@ -27,8 +27,10 @@ With your installation of Blockly verified as working, inject Blockly into a web
 ## Configuration
 
 The ` Blockly.inject ` line contains as its second argument a dictionary of name-value pairs.  These are used for configuration.  The following options are supported:
+
+| Name | Type | Description |
+|--------------|--------|---------------------------------------------------------------------------------------------------------------------|
 | ` collapse: ` | boolean | Allows blocks to be collapsed or expanded.  Defaults to ` true ` if the toolbox has categories, ` false ` otherwise. |
-|:--------------|:--------|:---------------------------------------------------------------------------------------------------------------------|
 | ` comments: ` | boolean | Allows blocks to have comments.  Defaults to ` true ` if the toolbox has categories, ` false ` otherwise.            |
 | ` disable: `  | boolean | Allows blocks to be disabled.  Defaults to ` true ` if the toolbox has categories, ` false ` otherwise.              |
 | ` maxBlocks: ` | number  | Maximum number of blocks that may be created.  Useful for student exercises. Defaults to ` Infinity `.               |
