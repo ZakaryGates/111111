@@ -1,4 +1,4 @@
-**[Installation](wiki/Installation): Injecting Fixed-sized Blockly**
+**[Installation](Installation): Injecting Fixed-sized Blockly**
 
 # Introduction
 
@@ -7,7 +7,7 @@ The simplest way to put Blockly into a webpage is to inject it into an empty 'di
   * One can't have more than one instance of Blockly on the same page.
   * Blockly cannot easily reflow as the window resizes.
 
-Both of these issues may be solved by [injecting Blockly into an iframe](wiki/InjectingResizable).
+Both of these issues may be solved by [injecting Blockly into an iframe](InjectingResizable).
 
 ## Injection
 
@@ -30,7 +30,7 @@ Add an empty div to the page and set its size:
   <div id="blocklyDiv" style="height: 480px; width: 600px;"></div>
 ```
 
-Add the structure of the toolbox (see [Defining the Toolbox](wiki/Toolbox) for more information):
+Add the structure of the toolbox (see [Defining the Toolbox](Toolbox) for more information):
 
 ```
   <xml id="toolbox" style="display: none">

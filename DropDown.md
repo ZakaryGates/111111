@@ -1,4 +1,4 @@
-**[Creating Custom Blocks](wiki/CustomBlocks): [Defining Blocks](wiki/DefiningBlocks): Drop-down Menus**
+**[Creating Custom Blocks](CustomBlocks): [Defining Blocks](DefiningBlocks): Drop-down Menus**
 
 Drop-down menus can be somewhat complicated field elements used in creating blocks.
 

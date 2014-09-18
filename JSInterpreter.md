@@ -1,8 +1,8 @@
-**[Installation](wiki/Installation): [Language Generators](wiki/LanguageGenerators): JavaScript Interpreter**
+**[Installation](Installation): [Language Generators](LanguageGenerators): JavaScript Interpreter**
 
 ## Eval is Evil
 
-The quickest way to run your user's blocks is to generate JavaScript, then push the resulting code through the browser's ` eval() ` function.  This works very well for many simple applications.  The [Language Generators](wiki/LanguageGenerators) page describes how to do this, along with a couple of hacks such as how to deal with infinite loops and how not to collide with existing variables.
+The quickest way to run your user's blocks is to generate JavaScript, then push the resulting code through the browser's ` eval() ` function.  This works very well for many simple applications.  The [Language Generators](LanguageGenerators) page describes how to do this, along with a couple of hacks such as how to deal with infinite loops and how not to collide with existing variables.
 
 However, if you are serious about running the user's blocks properly, then the [JS Interpreter](https://github.com/NeilFraser/JS-Interpreter) is the way to go.  This project is separate from Blockly, but was specifically written for Blockly.
 

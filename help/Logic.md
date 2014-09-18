@@ -7,8 +7,8 @@
   * **false**
 
 Boolean values (also called _conditions_) are used in these control block, which contain examples::
-  * [conditional blocks](wiki/IfElse)
-  * [repeat blocks](wiki/Loops#repeat)
+  * [conditional blocks](IfElse)
+  * [repeat blocks](Loops#repeat)
 
 One of the many examples from those pages is:
 

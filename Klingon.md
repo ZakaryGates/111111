@@ -36,15 +36,15 @@ translations or corrections -- whether for Klingon, or other languages.
 
 ## How?
 
-Most of [Blockly's translations](wiki/Translation) are done by volunteers using
+Most of [Blockly's translations](Translation) are done by volunteers using
 Translatewiki.  Unfortunately, Klingon is not in their language matrix.
 As a result, Klingon contributors need to edit two files manually:
 
-https://code.google.com/p/blockly/source/browse/trunk/msg/json/tlh.json
+https://github.com/google/blockly/tree/master/msg/json/tlh.json
 
 and
 
-https://code.google.com/p/blockly/source/browse/trunk/apps/json/tlh.json
+https://github.com/google/blockly/tree/master/apps/json/tlh.json
 
 See the ` en.json ` files in each directory for the English phrases (including
 those not yet translated to Klingon), and the ` qqq.json ` files for descriptions.

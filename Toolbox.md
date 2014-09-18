@@ -1,4 +1,4 @@
-**[Installation](wiki/Installation): Defining the Toolbox**
+**[Installation](Installation): Defining the Toolbox**
 
 # Introduction
 

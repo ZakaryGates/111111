@@ -1,10 +1,10 @@
-**[Installation](wiki/Installation): Cloud Storage**
+**[Installation](Installation): Cloud Storage**
 
 # Introduction
 
 If your application is hosted on App Engine, a cloud storage service is available that allows users to save, load, share, and publish their programs.
 
-_Note that the [RealtimeCollaboration](wiki/RealtimeCollaboration) feature provides an alternate way to save, load, share, and publish programs.  It does, however, currently require users to have a Google Account._
+_Note that the [RealtimeCollaboration](RealtimeCollaboration) feature provides an alternate way to save, load, share, and publish programs.  It does, however, currently require users to have a Google Account._
 
 ## Setting up App Engine
 
@@ -28,7 +28,7 @@ Once Blockly is uploaded you can point a browser to the URL you created in step 
 
 ## Talking to the Cloud
 
-Examine the source of the [storage demo](https://blockly-demo.appspot.com/static/demos/storage/index.html) at [demos/storage/index.html](https://code.google.com/p/blockly/source/browse/trunk/demos/storage/index.html) and note the following features.  First, there is a script include that loads the cloud storage API:
+Examine the [storage demo](https://blockly-demo.appspot.com/static/demos/storage/index.html)'s source at [demos/storage/index.html](https://github.com/google/blockly/tree/master/demos/storage/index.html) and note the following features.  First, there is a script include that loads the cloud storage API:
 
 ```
   <script type="text/javascript" src="/storage.js"></script>
@@ -42,7 +42,7 @@ There are also these message definitions, which you should modify as desired:
   BlocklyStorage.XML_ERROR = 'Could not load your saved file.\n'+
       'Perhaps it was created with a different version of Blockly?';
 ```
-Translations into other languages can be found at [apps/json](https://code.google.com/p/blockly/source/browse/#svn%2Ftrunk%2Fapps%2Fjson).
+Translations into other languages can be found at [apps/json](https://github.com/google/blockly/tree/master/apps/json).
 
 Saving the current blocks is a single call to ` BlocklyStorage.link() `:
 

@@ -1,4 +1,4 @@
-**[Creating Custom Blocks](wiki/CustomBlocks): [Generating Code](wiki/GeneratingCode): Operator Precedence**
+**[Creating Custom Blocks](CustomBlocks): [Generating Code](GeneratingCode): Operator Precedence**
 
 Code generators are used to convert Blockly's programs into JavaScript, Python, Dart, etc.  The most challenging issue when writing a code generator for a new block is handling the order of operations so that the resulting code executes as intended.
 

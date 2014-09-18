@@ -38,7 +38,7 @@ svn ls https://blockly.googlecode.com/svn/trunk
 
 and type 'p' to accept Server certificate (p)ermanently to access the https resource.
 
-[Install Closure library](https://code.google.com/p/blockly/wiki/Closure).
+[Install Closure library](Closure).
 
 ### Update the code
 
@@ -52,13 +52,13 @@ gclient sync
   * Do some work.
   * cd trunk
   * ` gcl change `
-  * [Run tests](wiki/UnitTesting).
+  * [Run tests](UnitTesting).
   * ` gcl upload xxxx `
   * Go to the url on codereview.appspot.com returned by ` gcl upload `.
   * Click on "Publish+Mail Comments", fill in the reviewer field, and send.
   * Get "LGTM" (Looks Good To Me) from reviewer.
   * ` gclient sync `
-  * [Run tests](wiki/UnitTesting).
+  * [Run tests](UnitTesting).
   * ` gcl commit xxxx `
 
 ### Branching

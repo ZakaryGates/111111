@@ -60,7 +60,7 @@ The value of an **is empty** block is **true** if its input is the empty list an
 
 ![](help/list-empty.png)
 
-Note the similarity to the ["is empty" block for text](https://code.google.com/p/blockly/wiki/Text#Checking_for_empty_text).
+Note the similarity to the ["is empty" block for text](Text#Checking_for_empty_text).
 
 ## length of
 
@@ -72,7 +72,7 @@ Note that the **length of** block tells you how many items are in the list, not 
 
 ![](help/list-length2.png)
 
-Note the similarity to the ["length of" block for text](https://code.google.com/p/blockly/wiki/Text#Text_length).
+Note the similarity to the ["length of" block for text](Text#Text_length).
 
 # Finding Items in a List
 
@@ -88,7 +88,7 @@ If the item is nowhere in the list, the result is in the value 0, as in this exa
 
 ![](help/list-find-first2.png)
 
-These blocks are analogous to [the ones for finding letters in text](https://code.google.com/p/blockly/wiki/Text#Finding_text).
+These blocks are analogous to [the ones for finding letters in text](Text#Finding_text).
 
 # Getting Items from a List
 
@@ -159,7 +159,7 @@ The **in list ... set** block replaces the item at a specified location in a lis
 
 ![](help/list-set.png)
 
-For the meaning of each of the dropdown options, see the [previous section](wiki/Lists#Getting_Items_from_a_List).
+For the meaning of each of the dropdown options, see the [previous section](Lists#Getting_Items_from_a_List).
 
 The following example does two things:
   1. The list **words** is created with 3 items: ["very", "very", "very"].
@@ -185,7 +185,7 @@ It inserts a new item into the list at the specified location, before the item p
 
 ## Printing a list
 
-The [print block](wiki/Text#Printing_text) in the Text category can print lists.  The result of the following program is the shown alert box:
+The [print block](Text#Printing_text) in the Text category can print lists.  The result of the following program is the shown alert box:
 
 ![](help/list-print.png)
 
@@ -193,10 +193,10 @@ The [print block](wiki/Text#Printing_text) in the Text category can print lists.
 
 ## Doing something for each item in a list
 
-The [for-each block](wiki/Loops#for_each) in the Control category performs an operation on every item in a list.  For example, these blocks individually print each item in the list:
+The [for-each block](Loops#for_each) in the Control category performs an operation on every item in a list.  For example, these blocks individually print each item in the list:
 
 ![](help/control-for-each.png)
 
 This does not remove the items from the original list.
 
-See also the examples of the [loop termination blocks](wiki/Loops#Loop_Termination_Blocks).
+See also the examples of the [loop termination blocks](Loops#Loop_Termination_Blocks).

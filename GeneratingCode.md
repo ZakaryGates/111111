@@ -1,4 +1,4 @@
-**[Creating Custom Blocks](wiki/CustomBlocks): Generating Code**
+**[Creating Custom Blocks](CustomBlocks): Generating Code**
 
 # Generating Code
 
@@ -24,9 +24,9 @@ Blockly.JavaScript['text_indexOf'] = function(block) {
 
 The first task for any block's code generator is to collect all the arguments and field data.  There are several functions commonly used for this task:
 
-  * [getFieldValue](wiki/#getFieldValue)
-  * [valueToCode](wiki/#valueToCode)
-  * [statementToCode](wiki/#statementToCode)
+  * [getFieldValue](#getFieldValue)
+  * [valueToCode](#valueToCode)
+  * [statementToCode](#statementToCode)
 
 ### getFieldValue
 

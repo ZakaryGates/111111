@@ -1,4 +1,4 @@
-**[Creating Custom Blocks](wiki/CustomBlocks): [Generating Code](wiki/GeneratingCode): Caching Arguments**
+**[Creating Custom Blocks](CustomBlocks): [Generating Code](GeneratingCode): Caching Arguments**
 
 # Caching Arguments
 

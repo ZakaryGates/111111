@@ -1,4 +1,4 @@
-**[Creating Custom Blocks](wiki/CustomBlocks): Defining Blocks**
+**[Creating Custom Blocks](CustomBlocks): Defining Blocks**
 
 Note that much of block creation can be done through the Blockly GUI using [Block Factory](https://blockly-demo.appspot.com/static/apps/blockfactory/index.html) instead of manually creating the code given below.
 
@@ -30,21 +30,21 @@ Blockly.Blocks['text_length'] = {
 
 The ` init ` function creates the block's shape.  In the context of this function the keyword ` this ` is the actual block being created.  There are several functions commonly used in an ` init ` function:
 
-  * [setHelpUrl](wiki/#setHelpUrl)
-  * [setColour](wiki/#setColour)
-  * [setOutput](wiki/#setOutput)
-  * [setPreviousStatement](wiki/#setPreviousStatement)
-  * [setNextStatement](wiki/#setNextStatement)
-  * [appendDummyInput, appendValueInput, appendStatementInput ](wiki/#appendDummyInput,_appendValueInput,_appendStatementInput)
-    * [setCheck](wiki/#setCheck)
-    * [setAlign](wiki/#setAlign)
-    * [appendField](wiki/#appendField)
-  * [setInputsInline](wiki/#setInputsInline)
-  * [setTooltip](wiki/#setTooltip)
-  * [setMutator](wiki/#setMutator)
-  * [setDeletable](wiki/#setDeletable)
-  * [setEditable](wiki/#setEditable)
-  * [setMovable](wiki/#setMovable)
+  * [setHelpUrl](#setHelpUrl)
+  * [setColour](#setColour)
+  * [setOutput](#setOutput)
+  * [setPreviousStatement](#setPreviousStatement)
+  * [setNextStatement](#setNextStatement)
+  * [appendDummyInput, appendValueInput, appendStatementInput ](#appendDummyInput,_appendValueInput,_appendStatementInput)
+    * [setCheck](#setCheck)
+    * [setAlign](#setAlign)
+    * [appendField](#appendField)
+  * [setInputsInline](#setInputsInline)
+  * [setTooltip](#setTooltip)
+  * [setMutator](#setMutator)
+  * [setDeletable](#setDeletable)
+  * [setEditable](#setEditable)
+  * [setMovable](#setMovable)
 
 ### setHelpUrl
 
@@ -140,7 +140,7 @@ Once an input is created and appended to the block, it may be configured using '
     input.setCheck(Number);
 ```
 
-This optional function is used for type-checking of connected inputs.  If given an argument of null, then this input may be connected to any block.  See [setOutput](wiki/#setOutput) for details on the expected values.
+This optional function is used for type-checking of connected inputs.  If given an argument of null, then this input may be connected to any block.  See [setOutput](#setOutput) for details on the expected values.
 
 #### setAlign
 
@@ -184,7 +184,7 @@ Optionally, the ` FieldTextInput ` constructor can also take a second argument w
 
 Another field element is a drop-down menu.  Just like the text input field, the drop-down menu is created separately, then appended to the input row.  The ` FieldDropdown ` object is created with a list of menu options, or with a generator function.
 
-→ More info on [Drop-down Menus](wiki/DropDown)...
+→ More info on [Drop-down Menus](DropDown)...
 
 ```
     var variable = new Blockly.FieldVariable('item');
@@ -258,7 +258,7 @@ Tooltips may also be defined as a function instead of a static string.  This all
 
 ![](controls_if.png)
 
-Mutators allow advanced blocks to change shape, most notably as a result of users opening a dialog to add, remove or rearrange components.  Creating a mutator is not trivial and is the subject of a separate page: [Creating Mutators](wiki/CreatingMutators).
+Mutators allow advanced blocks to change shape, most notably as a result of users opening a dialog to add, remove or rearrange components.  Creating a mutator is not trivial and is the subject of a separate page: [Creating Mutators](CreatingMutators).
 
 ### setDeletable
 

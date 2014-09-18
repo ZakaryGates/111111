@@ -20,9 +20,9 @@ Once you have the code, point your browser at ` apps/maze/index.html ` and test 
 
 With your installation of Blockly verified as working, inject Blockly into a web page using either a fixed-size ` div ` or a resizable ` iframe `.
 
-→ More info on [injecting fixed-sized Blockly](wiki/InjectingFixedSize)...
+→ More info on [injecting fixed-sized Blockly](InjectingFixedSize)...
 
-→ More info on [injecting resizable Blockly](wiki/InjectingResizable)...
+→ More info on [injecting resizable Blockly](InjectingResizable)...
 
 ## Configuration
 
@@ -39,18 +39,18 @@ The ` Blockly.inject ` line contains as its second argument a dictionary of name
 | ` rtl: `      | boolean | If ` true `, mirror the editor for Arabic or Hebrew locales.  See [RTL demo](https://blockly-demo.appspot.com/static/demos/rtl/index.html).  Defaults to ` false `. |
 | ` scrollbars: ` | boolean | If ` false `, supress scrollbars that appear if the toolbox has categories.  Defaults to ` true `.                   |
 | ` sound: `    | boolean | If ` false `, don't play sounds (e.g. click and delete).  Defaults to ` true `.                                      |
-| ` toolbox: `  | XML nodes or string | Tree structure of categories and blocks available to the user.  See [Defining the Toolbox](wiki/Toolbox) for more information. |
+| ` toolbox: `  | XML nodes or string | Tree structure of categories and blocks available to the user.  See [Defining the Toolbox](Toolbox) for more information. |
 | ` trashcan: ` | boolean | Displays or hides the trashcan.  Defaults to ` true ` if the toolbox has categories, ` false ` otherwise.            |
 
-Blockly's library of blocks is highly configurable.  The blocks shown to the user can be customized so that users only see blocks that are relevant to the task.  Browse the ` blocks/ ` directory for block categories that you want to include.  The categories and blocks shown in the toolbox (the side menu) is specified using an [XML tree](wiki/Toolbox).
+Blockly's library of blocks is highly configurable.  The blocks shown to the user can be customized so that users only see blocks that are relevant to the task.  Browse the ` blocks/ ` directory for block categories that you want to include.  The categories and blocks shown in the toolbox (the side menu) is specified using an [XML tree](Toolbox).
 
-Additionally, custom blocks need to be built to call your web application's API.  An example is the [Maze application](https://blockly-demo.appspot.com/static/apps/maze/index.html) which has custom blocks for movement.  More info on [Creating custom blocks](wiki/CustomBlocks)...
+Additionally, custom blocks need to be built to call your web application's API.  An example is the [Maze application](https://blockly-demo.appspot.com/static/apps/maze/index.html) which has custom blocks for movement.  More info on [Creating custom blocks](CustomBlocks)...
 
 ## Language Generators
 
 Blockly is not a programming language, one cannot 'run' a Blockly program.  Instead, Blockly can translate the user's program into JavaScript, Python, Dart, or some other language.
 
-→ More info on [Language Generators](wiki/LanguageGenerators)...
+→ More info on [Language Generators](LanguageGenerators)...
 
 ## Importing and Exporting Blocks
 
@@ -74,4 +74,4 @@ Restoring from an XML string to blocks is just as simple:
 
 Blockly comes with an optional cloud-storage feature.  It enables users to save, load, share, and publish their programs.  If your project is hosted on App Engine you can take advantage of this service.
 
-→ More info on [Cloud Storage](wiki/CloudStorageWithAppEngine)...
+→ More info on [Cloud Storage](CloudStorageWithAppEngine)...
