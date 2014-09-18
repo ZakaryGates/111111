@@ -12,7 +12,7 @@ Boolean values (also called _conditions_) are used in these control block, which
 
 One of the many examples from those pages is:
 
-![https://blockly.googlecode.com/svn/wiki/if-else.png](https://blockly.googlecode.com/svn/wiki/if-else.png)
+![](if-else.png)
 
 If the value of the variable **x** is greater than 100, the condition is **true**, and the text "What a big number!" is printed.  If the value of **x** is not greater than 100, the condition is **false**, and "That's not very big." is printed.
 
@@ -26,19 +26,19 @@ If a block expects a Boolean value as an input, it interprets an absent input as
 
 A single block, with a dropdown specifying either **true** or **false**, can be used to get a boolean value:
 
-![https://blockly.googlecode.com/svn/wiki/boolean-true-false.png](https://blockly.googlecode.com/svn/wiki/boolean-true-false.png)
+![](boolean-true-false.png)
 
 ## not
 
 The **not** block converts its Boolean input into its opposite.  For example, the result of:
 
-![https://blockly.googlecode.com/svn/wiki/boolean-not-true.png](https://blockly.googlecode.com/svn/wiki/boolean-not-true.png)
+![](boolean-not-true.png)
 
 is false.
 
 As mentioned above, if no input is provided, a value of **true** is assumed, so the following block produces the value **false**:
 
-![https://blockly.googlecode.com/svn/wiki/boolean-not.png](https://blockly.googlecode.com/svn/wiki/boolean-not.png)
+![](boolean-not.png)
 
 Leaving an input empty is not recommended, however.
 

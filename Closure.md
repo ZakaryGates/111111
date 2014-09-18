@@ -2,7 +2,7 @@
 
 Did you just get this error message?
 
-![https://blockly.googlecode.com/svn/wiki/closure_alert.png](https://blockly.googlecode.com/svn/wiki/closure_alert.png)
+![](closure_alert.png)
 
 If so, then you are probably attempting to run the uncompiled version of Blockly and you are missing the dependency on [Closure Library](https://developers.google.com/closure/library/).
 
@@ -16,6 +16,6 @@ svn checkout https://github.com/google/closure-library/trunk closure-library-rea
 
 Once you have the Closure files, place them next to Blocky's root directory and ensure that the directory is named ` closure-library-read-only `.  This is the directory structure you want:
 
-![https://blockly.googlecode.com/svn/wiki/closure_directory.png](https://blockly.googlecode.com/svn/wiki/closure_directory.png)
+![](closure_directory.png)
 
 That's it.  Blockly should now work in uncompiled mode.

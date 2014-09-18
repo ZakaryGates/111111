@@ -137,7 +137,7 @@ Of course, if you have a different path to ` _soy ` or wish to generate "en\_us.
 
 Before checking in code, developers should do a full i18n build by following the instructions in comments at the top of [apps/common.soy](https://code.google.com/p/blockly/source/browse/trunk/apps/common.soy).  The below diagram shows the build process.   It is followed by a description of each step.
 
-![https://blockly.googlecode.com/svn/wiki/i18n_block_diagram.png](https://blockly.googlecode.com/svn/wiki/i18n_block_diagram.png)
+![](i18n_block_diagram.png)
 
 #### SoyMsgExtractor.jar
 
@@ -252,7 +252,7 @@ Synonym definitions may appear anywhere in ` messages.js ` after the right-hand 
 
 Ideally, translators should be given sentences, rather than bits of pieces of text to be concatenated with data.  This can sometimes be provided through message interpolation, as in this example:
 
-![https://blockly.googlecode.com/svn/wiki/text-count-with.png](https://blockly.googlecode.com/svn/wiki/text-count-with.png)
+![](text-count-with.png)
 ```
 /// block title - Title of [https://code.google.com/p/blockly/wiki/Loops#count_with count with] blocks.
 Blockly.Msg.CONTROLS_FOR_INPUT_WITH = 'count with';

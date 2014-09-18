@@ -21,7 +21,7 @@ Blockly.Blocks['text_length'] = {
 };
 ```
 
-![https://blockly.googlecode.com/svn/wiki/text_length.png](https://blockly.googlecode.com/svn/wiki/text_length.png)
+![](text_length.png)
 
   * ` text_length ` is the name of the block.  Since all blocks share the same namespace, it is good to use a name made up of your category (in this case ` text `) followed by your block's function (in this case ` length `).
   * ` init ` is a function which defines the look and feel of the block.
@@ -61,7 +61,7 @@ The URL of the page which should open when the user right-clicks on the block an
 ```
 Blockly uses a [Hue-Saturation-Value](https://en.wikipedia.org/wiki/HSL_and_HSV) (HSV) colour model.  Saturation and Value are hard-coded into Blockly, whereas the Hue is defined on each block.  This ensures that developers have the freedom to choose from a wide range of colours, while still guaranteeing that all the blocks will fit together visually.  It also allows the entire Blockly look and feel to be made brighter (for children) or more depressing (for businesses) by simply adjusting the two hard-coded Saturation and Value constants.
 
-![https://blockly.googlecode.com/svn/wiki/HSV.png](https://blockly.googlecode.com/svn/wiki/HSV.png)
+![](HSV.png)
 
 To find a good colour, visit this [HSV picker](http://www.rapidtables.com/web/color/color-picker.htm), enter Blockly's Saturation and Value constants (the defaults are 45% and 65% respectively), then slide the Hue as desired.  Use this Hue value as the argument to the ` this.setColour ` function.  Note the British spelling.  Failure to set the colour results in a black block.
 
@@ -71,7 +71,7 @@ To find a good colour, visit this [HSV picker](http://www.rapidtables.com/web/co
     this.setOutput(true, 'Number');
 ```
 
-![https://blockly.googlecode.com/svn/wiki/setOutput.png](https://blockly.googlecode.com/svn/wiki/setOutput.png)
+![](setOutput.png)
 
 Value blocks (as opposed to statements) need an output tab.  Blocks with an output tab may not also have a previous statement notch.
 
@@ -85,7 +85,7 @@ In the event that the block could return more than one type of value, use an arr
     this.setPreviousStatement(true);
 ```
 
-![https://blockly.googlecode.com/svn/wiki/setPreviousStatement.png](https://blockly.googlecode.com/svn/wiki/setPreviousStatement.png)
+![](setPreviousStatement.png)
 
 Creates a notch at the top of the block, so that it may be plugged into a stack of statements.  Normally combined with ` setNextStatement ` (see below).  Blocks with a previous statement notch may not also have an output tab.
 
@@ -97,7 +97,7 @@ Optionally (and not typically), this function can take a second argument to limi
     this.setNextStatement(true);
 ```
 
-![https://blockly.googlecode.com/svn/wiki/setNextStatement.png](https://blockly.googlecode.com/svn/wiki/setNextStatement.png)
+![](setNextStatement.png)
 
 Creates a notch at the bottom of the block, so that other statements may be stacked below it.  Unless this block terminates flow (e.g. break, return, or end), this is normally combined with ` setPreviousStatement ` (see above).
 
@@ -118,7 +118,7 @@ Optionally (and not typically), this function can take a second argument to limi
         .appendField('do');
 ```
 
-![https://blockly.googlecode.com/svn/wiki/appendInput.png](https://blockly.googlecode.com/svn/wiki/appendInput.png)
+![](appendInput.png)
 
 Each block has a list of input rows.  There are three types of inputs:
 
@@ -160,7 +160,7 @@ Once an input has been created and appended to a block with ` appendInput `, one
     input.appendField('hello');
 ```
 
-![https://blockly.googlecode.com/svn/wiki/appendField.png](https://blockly.googlecode.com/svn/wiki/appendField.png)
+![](appendField.png)
 
 An input row can contain any number of field elements.  The simplest field element is text.  Blockly's convention is to use all lowercase text, with the exception of proper names (e.g. Google, SQL).
 
@@ -169,7 +169,7 @@ An input row can contain any number of field elements.  The simplest field eleme
     input.appendField(textInput, 'NAME');
 ```
 
-![https://blockly.googlecode.com/svn/wiki/appendFieldTextInput.png](https://blockly.googlecode.com/svn/wiki/appendFieldTextInput.png)
+![](appendFieldTextInput.png)
 
 Another field element is a text input.  First, create the field, then append it to the input row.  Since the code generators will eventually need to access the data in this field element, be sure to give it a name (in this case ` 'NAME' `).  This name is never seen by the user and should be consistent across all human language versions of the block.
 
@@ -180,7 +180,7 @@ Optionally, the ` FieldTextInput ` constructor can also take a second argument w
     input.appendField(dropdown, 'MODE');
 ```
 
-![https://blockly.googlecode.com/svn/wiki/appendFieldDropdown.png](https://blockly.googlecode.com/svn/wiki/appendFieldDropdown.png)
+![](appendFieldDropdown.png)
 
 Another field element is a drop-down menu.  Just like the text input field, the drop-down menu is created separately, then appended to the input row.  The ` FieldDropdown ` object is created with a list of menu options, or with a generator function.
 
@@ -191,7 +191,7 @@ Another field element is a drop-down menu.  Just like the text input field, the 
     input.appendField(variable, 'VAR');
 ```
 
-![https://blockly.googlecode.com/svn/wiki/appendFieldVariable.png](https://blockly.googlecode.com/svn/wiki/appendFieldVariable.png)
+![](appendFieldVariable.png)
 
 Another field element is a variable selection menu.  The ` FieldVariable ` object is created with the default variable name to use (in this case ` 'item' `).  If this name is omitted, the variable will be a new unique variable (e.g. ` 'i' `, ` 'j' `, ` 'k' `...).
 
@@ -200,7 +200,7 @@ Another field element is a variable selection menu.  The ` FieldVariable ` objec
     input.appendField(checkbox, 'TOGGLE');
 ```
 
-![https://blockly.googlecode.com/svn/wiki/appendFieldCheckbox.png](https://blockly.googlecode.com/svn/wiki/appendFieldCheckbox.png)
+![](appendFieldCheckbox.png)
 
 Another field element is a checkbox.  The ` FieldCheckbox ` object is created with an initial state, either ` 'TRUE' ` or ` 'FALSE' `.
 
@@ -211,7 +211,7 @@ Optionally, the ` FieldCheckbox ` constructor can also take a second argument wh
     input.appendField(colour, 'COLOUR');
 ```
 
-![https://blockly.googlecode.com/svn/wiki/appendFieldColour.png](https://blockly.googlecode.com/svn/wiki/appendFieldColour.png)
+![](appendFieldColour.png)
 
 Another field element is a colour picker.  The ` FieldColour ` object is created with an initial colour, in hexadecimal ` '#rrggbb' ` format.  Note the British spelling.
 
@@ -222,7 +222,7 @@ Optionally, the ` FieldColour ` constructor can also take a second argument whic
     input.appendField(image);
 ```
 
-![https://blockly.googlecode.com/svn/wiki/appendFieldImage.png](https://blockly.googlecode.com/svn/wiki/appendFieldImage.png)
+![](appendFieldImage.png)
 
 Another field element is a static image.  The ` FieldImage ` object is created with the image URL and the desired height and width.  The image will be scaled to within the specified dimensions, while preserving the aspect ratio.  The block will expand as needed to accommodate the image.  An optional fourth argument specifies the alternate text for use when the block is collapsed.
 
@@ -234,7 +234,7 @@ If the image is being served locally on a relative URL, use ` Blockly.pathToBloc
     this.setInputsInline(true);
 ```
 
-![https://blockly.googlecode.com/svn/wiki/setInputsInline.png](https://blockly.googlecode.com/svn/wiki/setInputsInline.png)
+![](setInputsInline.png)
 
 Value and variable inputs are by default each on separate lines (as shown on the left).  By setting inputs inline, one can create a more compact block (as shown on the right).
 
@@ -256,7 +256,7 @@ Tooltips may also be defined as a function instead of a static string.  This all
     this.setMutator(new Blockly.Mutator(['controls_if_elseif', 'controls_if_else']));
 ```
 
-![https://blockly.googlecode.com/svn/wiki/controls_if.png](https://blockly.googlecode.com/svn/wiki/controls_if.png)
+![](controls_if.png)
 
 Mutators allow advanced blocks to change shape, most notably as a result of users opening a dialog to add, remove or rearrange components.  Creating a mutator is not trivial and is the subject of a separate page: [Creating Mutators](wiki/CreatingMutators).
 

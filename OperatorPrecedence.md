@@ -6,7 +6,7 @@ Code generators are used to convert Blockly's programs into JavaScript, Python, 
 
 Consider the following assembly of blocks.
 
-![https://blockly.googlecode.com/svn/wiki/operatorPrecedence.png](https://blockly.googlecode.com/svn/wiki/operatorPrecedence.png)
+![](operatorPrecedence.png)
 
 If the generators were not aware of operator precedence, the resulting JavaScript code would be:
 ```
