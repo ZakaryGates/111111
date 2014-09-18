@@ -9,8 +9,7 @@ Drop-down menus can be somewhat complicated field elements used in creating bloc
     var dropdown = new Blockly.FieldDropdown([['world', 'WORLD'], ['computer', 'CPU']]);
     input.appendField(dropdown, 'MODE');
 ```
-
-![https://blockly.googlecode.com/svn/wiki/appendFieldDropdown.png](https://blockly.googlecode.com/svn/wiki/appendFieldDropdown.png)
+![](appendFieldDropdown.png)
 
 The ` FieldDropdown ` object is created with a list of menu options.  Each option is made up of two strings.  The first is the human-readable text to display.  The second is a string constant which is used when saving the option to XML.  This separation allows a dropdown menu's setting to be preserved between languages.  For instance an English (` en/ `) version of a block may define ` [['left', 'LEFT'], ['right', 'RIGHT']] ` while a German (` de/ `) version of the same block would define ` [['links', 'LEFT'], ['rechts', 'RIGHT']] `.
 
