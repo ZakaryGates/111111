@@ -3,6 +3,8 @@ On 1 April 2014 we released a
 Klingon is an unusual choice for a translation, and on this page we wanted to
 give some context on the hows and whys, as well as how you can help.
 
+![](klingon.png)
+
 ## Why?
 
 Blockly has been translated into over 40 languages, including RTL languages such

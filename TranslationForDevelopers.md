@@ -1,7 +1,5 @@
 This document provides what developers should know about Blockly translations.  Translators should read [this document](Translation) instead.
 
-(TODO: Add table of contents.)
-
 # Introduction
 
 Internationalization (i18n) is one of Blockly's top priorities.  See, for example, [CS in VN](https://neil.fraser.name/news/2013/03/16/).  Blockly supports right-to-left and left-to-right scripts, and the [Puzzle application](https://blockly-demo.appspot.com/static/apps/puzzle/index.html) has been translated into over 50 languages.  We look forward to getting all of Blockly translated into that many languages.

@@ -8,7 +8,7 @@ If so, then you are probably attempting to run the uncompiled version of Blockly
 
 ## Getting Closure
 
-Getting Closure is quick and easy.  Use Subversion to checkout a copy from [Closure's repository](https://code.google.com/p/closure-library/source/checkout):
+Getting Closure is quick and easy.  Use either Git or Subversion to checkout a copy from [Closure's repository](https://github.com/google/closure-library):
 
 ```
 svn checkout https://github.com/google/closure-library/trunk closure-library-read-only
