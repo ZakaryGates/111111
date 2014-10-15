@@ -16,7 +16,7 @@ While users can choose any name for a variable, core Blockly provides a default 
 
 Clicking on a variable's dropdown symbol (triangle) gives the following menu:
 
-![](help/variables-dropdown.png)
+![](variables-dropdown.png)
 
 The menu provides the following options.
   * the names of all variables defined in the program.
@@ -29,13 +29,13 @@ The menu provides the following options.
 
 The **set** block assigns a value to a variable, creating the variable if it doesn't already exist.  For example, this sets the value of the variable named "age" to 12.
 
-![](help/variables-set-variable.png)
+![](variables-set-variable.png)
 
 ## Get
 
 The **get** block provides the value stored in a variable, without changing it.
 
-![](help/variables-get-variable.png)
+![](variables-get-variable.png)
 
 It is possible, but a bad idea, to write a program in which a **get** appears without a corresponding **set**.
 
@@ -43,6 +43,6 @@ It is possible, but a bad idea, to write a program in which a **get** appears wi
 
 Consider the following example code:
 
-![](help/variables-example.png)
+![](variables-example.png)
 
 The first row of blocks creates a variable named "age" and sets its initial value to the number 12.  The second row of blocks gets the value 12, adds 1 to it, and stores the sum (13) into the variable.  The final row displays the message: "Happy birthday!  You are now 13"

@@ -11,7 +11,7 @@ Boolean values (also called _conditions_) are used in these control block, which
 
 One of the many examples from those pages is:
 
-![](help/if-else.png)
+![](if-else.png)
 
 If the value of the variable **x** is greater than 100, the condition is **true**, and the text "What a big number!" is printed.  If the value of **x** is not greater than 100, the condition is **false**, and "That's not very big." is printed.
 
@@ -25,13 +25,13 @@ If a block expects a Boolean value as an input, it usually interprets an absent 
 
 A single block, with a dropdown specifying either **true** or **false**, can be used to get a boolean value:
 
-![](help/logic-true-false.png)
+![](logic-true-false.png)
 
 ## comparisons
 
 There are six comparison operators.  Each takes two inputs (normally numbers) and returns true or false depending on how the inputs compare with each other.
 
-![](help/logic-compare.png)
+![](logic-compare.png)
 
 The six operators are: equals, not equals, less than, less than or equal, greater than, greater than or equal.
 
@@ -39,22 +39,22 @@ The six operators are: equals, not equals, less than, less than or equal, greate
 
 The **and** block will return **true** only if both of its two inputs are also true.
 
-![](help/logic-and.png)
+![](logic-and.png)
 
 The **or** block will return **true** if either of its two inputs are true.
 
-![](help/logic-or.png)
+![](logic-or.png)
 
 ## not
 
 The **not** block converts its Boolean input into its opposite.  For example, the result of:
 
-![](help/logic-not-true.png)
+![](logic-not-true.png)
 
 is false.
 
 As mentioned above, if no input is provided, a value of **true** is assumed, so the following block produces the value **false**:
 
-![](help/logic-not.png)
+![](logic-not.png)
 
 Leaving an input empty is not recommended, however.
