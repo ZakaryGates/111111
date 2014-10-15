@@ -1,6 +1,4 @@
 
-# Introduction
-
 Examples of pieces of text are:
   * "thing #1"
   * "March 12, 2010"

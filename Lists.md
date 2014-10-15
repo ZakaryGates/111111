@@ -1,6 +1,4 @@
 
-# Introduction
-
 As in everyday speech, a Blockly list is an ordered collection of items, such as a "to do" list or a shopping list.  Items in a list may be of any type, and the same value may appear more than once in a list.
 
 # List Creation

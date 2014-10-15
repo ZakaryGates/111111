@@ -1,11 +1,9 @@
 
-# Introduction
-
 [Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra) is a mathematical system that has two values:
   * **true**
   * **false**
 
-Boolean values (also called _conditions_) are used in these control block, which contain examples::
+Boolean values (also called _conditions_) are used in these control block, which contain examples:
   * [conditional blocks](IfElse)
   * [repeat blocks](Loops#repeat)
 

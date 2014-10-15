@@ -1,6 +1,4 @@
 
-# Introduction
-
 Conditional statements are central to computer programming.  They make it possible to express statements like:
   * If there is a path to the left, turn left.
   * If score = 100, print "Well done!".

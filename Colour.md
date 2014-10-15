@@ -1,6 +1,4 @@
 
-# Introduction
-
 Blockly users can choose, create, and blend colours.  Colours are primarily used in [the turtle graphics application](https://blockly-demo.appspot.com/static/apps/turtle/index.html) but are also available in [the coding application](https://blockly-demo.appspot.com/static/apps/code/index.html).  Note that we use the British spelling of "colour".
 
 # Blocks
