@@ -186,7 +186,7 @@ The **make list from text** block splits the given text into pieces using a deli
 
 ![](list-split.png)
 
-In the above example, a new list is returned with three pieces of text: "311", "555", and "2368".
+In the above example, a new list is returned containing three pieces of text: "311", "555", and "2368".
 
 ## make text from list
 
