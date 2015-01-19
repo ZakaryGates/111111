@@ -178,6 +178,24 @@ It inserts a new item into the list at the specified location, before the item p
 
 ![](list-insert-at-example.png)
 
+# Splitting strings and joining lists
+
+## make list from text
+
+The **make list from text** block splits the given text into pieces using a delimiter:
+
+![](list-split.png)
+
+In the above example, a new list is returned with three pieces of text: "311", "555", and "2368".
+
+## make text from list
+
+The **make text from list** block joins a list into a single text using a delimiter:
+
+![](list-join.png)
+
+In the above example, a new text is returned with the value: "311-555-2368".
+
 # Related Blocks
 
 ## Printing a list
