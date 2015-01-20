@@ -47,11 +47,11 @@ An **else** section may occur after any number of **else if** sections, includin
 
 # Block Modification
 
-Only the plain **if** block appears on the toolbar:
+Only the plain **if** block appears in the toolbox:
 
 ![](if.png)
 
-To add **else if** and **else** clauses, the user needs to click on the plus sign, which opens a new window:
+To add **else if** and **else** clauses, the user needs to click on the star icon, which opens a new window:
 
 ![](if-open.png)
 
