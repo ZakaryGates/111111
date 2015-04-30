@@ -16,7 +16,7 @@ The **create text with** block combines (concatenates) the value of the ` greeti
 
 ![](text-create.png)
 
-To increase the number of text inputs, click on the plus sign, which changes the view to:
+To increase the number of text inputs, click on the gear icon, which changes the view to:
 
 ![](text-create-modify.png)
 
