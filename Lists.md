@@ -95,7 +95,7 @@ Recall the definition of the list **colours**:
 
 ![](list-create-list-with-colours.png)
 
-The following block gets the color <font color='blue'>blue</font> because it is the second element in the list (counting from the beginning on the left):
+The following block gets the colour <font color='blue'>blue</font> because it is the second element in the list (counting from the beginning on the left):
 
 ![](list-in-list-get1.png)
 
@@ -139,8 +139,6 @@ The **in list ... get sublist** block is similar to the **in list ... get** bloc
 ![](list-sub-list1.png)
 
 ![](list-sub-list2.png)
-
-A few languages (notably Hungarian) require text following the right socket (hole).  This is referred to as a "tail" message.
 
 In this example, a new list **first letters** is created.  This new list has two elements: ["alpha", "beta"].
 
@@ -200,7 +198,7 @@ In the above example, a new text is returned with the value: "311-555-2368".
 
 ## Printing a list
 
-The [print block](Text#Printing_text) in the Text category can print lists.  The result of the following program is the shown alert box:
+The [print block](Text#printing-text) in the Text category can print lists.  The result of the following program is the shown alert box:
 
 ![](list-print.png)
 
@@ -208,10 +206,10 @@ The [print block](Text#Printing_text) in the Text category can print lists.  The
 
 ## Doing something for each item in a list
 
-The [for-each block](Loops#for_each) in the Control category performs an operation on every item in a list.  For example, these blocks individually print each item in the list:
+The [for-each block](Loops#for-each) in the Control category performs an operation on every item in a list.  For example, these blocks individually print each item in the list:
 
 ![](control-for-each.png)
 
 This does not remove the items from the original list.
 
-See also the examples of the [loop termination blocks](Loops#Loop_Termination_Blocks).
+See also the examples of the [loop termination blocks](Loops#loop-termination-blocks).
