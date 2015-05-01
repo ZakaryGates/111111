@@ -32,7 +32,7 @@ It is less common, but possible, to create a list with values of different types
 
 ### changing number of inputs
 
-To change the number of inputs, click on the plus ("+") icon.  This opens a new window:
+To change the number of inputs, click on the gear icon.  This opens a new window:
 
 ![](list-create-list-modify-tooltip.png)
 

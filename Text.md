@@ -90,6 +90,7 @@ The **in text...get substring** block allows a region of text to be extracted, s
   * letter #
   * letter # from end
   * the first letter
+
 and ending with:
   * letter #
   * letter # from end
@@ -103,8 +104,8 @@ In the following example, "abc" is extracted.
 
 This block creates a version of the input text that is either:
   * UPPER CASE (all letters upper-case)
-  * Title Case (first letters upper-case, other letters lower-case)
   * lower case
+  * Title Case (first letters upper-case, other letters lower-case)
 
 The result of the following block is "HELLO".
 
@@ -119,7 +120,7 @@ The following block removes space characters from:
   * the end of the text
   * both sides of the text
 
-The result of the following block is "hi   there".  (Spaces in the middle of the text are not affected.)
+The result of the following block is "hi &nbsp; there".  (Spaces in the middle of the text are not affected.)
 
 ![](text-trim-spaces.png)
 
