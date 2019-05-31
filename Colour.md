@@ -1,26 +1,23 @@
-
-Blockly users can choose, create, and blend colours.  Colours are primarily used in [the turtle graphics application](https://blockly-demo.appspot.com/static/apps/turtle/index.html) but are also available in [the coding application](https://blockly-demo.appspot.com/static/apps/code/index.html).  Note that we use the British spelling of "colour".
+Colours are used in many graphics programs.
 
 # Blocks
 ## Picking a colour from a palette
 
-The simplest way to get a colour is with the **colour picker**.  It appears as a red rounded rectangle.  When the user clicks on it, a palette of colours pops open, from which the user can choose the desired colour by again clicking.
+The simplest way to get a colour is with the **colour picker**.  It appears as a red rounded rectangle.  When clicked, a palette of colours pops opens, from which one can choose a colour.
 
 ![](colour-select.png)
 
 ## Creating a colour from red, green, and blue components
 
-The **colour with** block allows the user to specify the desired percent of red, green, and blue.  This block builds a colour with the maximum amounts of red and blue and no green (making purple):
+The **colour with** block allows one to specify the desired percent of red, green, and blue.  The example below builds a colour with the maximum amounts of red and blue and no green (making purple):
 
 ![](colour-with.png)
 
-Note that we use [a range from 0 to 100 (inclusive) for each component](http://www.december.com/html/spec/colorper.html), not the less intuitive range of 0 to 255 generally used by programmers and graphic designers.
-
-The ability to specify colours with changing numbers allows some beautiful turtle graphic applications, such as [this contest winner](https://plus.google.com/105063463762828771517/posts/HzzPaimTLwu) (see code):
+Note that we use [a range from 0 to 100 (inclusive)](https://www.december.com/html/spec/colorper.html) for each component, not the less intuitive range of 0 to 255 generally used by programmers and graphic designers.
 
 ## Generating a random colour
 
-The **random colour** block generates colours at random.
+The **random colour** block generates a random colour each time it is called.
 
 ![](colour-random-colour.png)
 
@@ -28,7 +25,7 @@ Specifically, each of the red, green, and blue components is a number from 0 to 
 
 ## Blending colours
 
-Unlike traditional turtle graphics systems, Blockly provides a means for blending two colours, as though one were blending two different colours of paint.  The following block provides the colour that would be obtained by mixing equal amounts of red paint (actually, [red light](http://www.newton.dep.anl.gov/askasci/gen99/gen99557.htm)) and yellow paint:
+This block blends two colours together, as though one were mixing paint together (actually light, not paint).  The example below produces the colour that would be obtained by mixing equal amounts of red and yellow (the result would be orange).
 
 ![](colour-blend.png)
 
@@ -42,4 +39,4 @@ Blockly colours are represented as text of the form "#rrggbb" where "rr", "gg", 
 
 which prints "#ff0000".
 
-Note that [blending light is different from blending pigments](http://www.newton.dep.anl.gov/askasci/gen99/gen99557.htm).  Blending red, green, and blue light in equal ratios yields white light, while blending red, green, and blue paint yields a muddy colour.
+Note that [blending light is different from blending pigments](http://learn.leighcotnoir.com/artspeak/elements-color/primary-colors/).  Blending red, green, and blue light in equal ratios yields white light, while blending red, green, and blue paint yields a muddy colour.

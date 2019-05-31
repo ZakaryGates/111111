@@ -12,11 +12,11 @@ The simplest list is the empty list, which is created with the **create empty li
 ## create list with
 
 ### basic usage
-The **create list with** block allows the user to specify the initial values in a new list.  In this example, a list of words is being created and placed in a variable named **letters**:
+The **create list with** block allows one to specify the initial values in a new list.  In this example, a list of words is being created and placed in a variable named **letters**:
 
 ![](list-create-list-with-text.png)
 
-For this document, we'll denote this list as ["alpha", "beta", "gamma"], and we will refer below to the variables defined in this section.
+For this document, we'll denote this list as ["alpha", "beta", "gamma"].  The variables defined in this section will be used in examples further down.
 
 This shows the creation of a list of numbers:
 
@@ -32,15 +32,11 @@ It is less common, but possible, to create a list with values of different types
 
 ### changing number of inputs
 
-To change the number of inputs, click on the gear icon.  This opens a new window:
-
-![](list-create-list-modify-tooltip.png)
-
-You can then drag **item** sublocks from the left side of the window into the **if** block on the right side to add a new input, as shown:
+To change the number of inputs, click on the gear icon.  This opens a new window.  You can then drag **item** sublocks from the left side of the window into the **list** block on the right side to add a new input, as shown:
 
 ![list-create-list-modify.gif](list-create-list-modify.gif)
 
-While the new item was added at the bottom in this example, it can be added anywhere.  Similarly, unwanted **item** subblocks can be dragged off the **if** block to the left.
+While the new item was added at the bottom in this example, it can be added anywhere.  Similarly, unwanted **item** subblocks can be dragged off the **list** block to the left.
 
 
 ## create list with item
@@ -57,7 +53,7 @@ The value of an **is empty** block is **true** if its input is the empty list an
 
 ![](list-empty.png)
 
-Note the similarity to the ["is empty" block for text](Text#Checking_for_empty_text).
+Note the similarity to the ["is empty" block for text](Text#checking-for-empty-text).
 
 ## length of
 
@@ -69,7 +65,7 @@ Note that the **length of** block tells you how many items are in the list, not 
 
 ![](list-length2.png)
 
-Note the similarity to the ["length of" block for text](Text#Text_length).
+Note the similarity to the ["length of" block for text](Text#text-length).
 
 # Finding Items in a List
 
@@ -85,7 +81,7 @@ If the item is nowhere in the list, the result is in the value 0, as in this exa
 
 ![](list-find-first2.png)
 
-These blocks are analogous to [the ones for finding letters in text](Text#Finding_text).
+These blocks are analogous to [the ones for finding letters in text](Text#finding-text).
 
 # Getting Items from a List
 
@@ -154,7 +150,7 @@ The **in list ... set** block replaces the item at a specified location in a lis
 
 ![](list-set.png)
 
-For the meaning of each of the dropdown options, see the [previous section](Lists#Getting_Items_from_a_List).
+For the meaning of each of the dropdown options, see the [previous section](Lists#getting-items-from-a-list).
 
 The following example does two things:
   1. The list **words** is created with 3 items: ["very", "very", "very"].

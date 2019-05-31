@@ -51,11 +51,11 @@ Only the plain **if** block appears in the toolbox:
 
 ![](if.png)
 
-To add **else if** and **else** clauses, the user needs to click on the gear icon, which opens a new window:
+To add **else if** and **else** clauses, the click on the gear icon, which opens a new window:
 
 ![](if-open.png)
 
-The user can then drag **else if** and **else** clauses into the **if** block, as well as reordering and removing them.  When finished, the user should click on the minus sign, which closes the window, as shown here:
+Drag **else if** and **else** clauses under the **if** block, as well as reordering and removing them.  When finished, click on the gear icon, which closes the window, as shown here:
 
 ![](if-modify.gif)
 

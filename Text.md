@@ -1,8 +1,10 @@
 
 Examples of pieces of text are:
+
   * "thing #1"
   * "March 12, 2010"
   * "" (the empty text)
+
 Text can contain letters (which may be lower-case or upper-case), numbers, punctuation marks, other symbols, and blank spaces between words.  (The non-Blockly term for all of these different types of text is [character](https://en.wikipedia.org/wiki/Character_(computing)).)
 
 # Blocks

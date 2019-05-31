@@ -1,19 +1,17 @@
 
-[Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra) is a mathematical system that has two values:
+[Boolean logic](https://en.wikipedia.org/wiki/Boolean_algebra) is a simple mathematical system that has two values:
   * **true**
   * **false**
 
-Boolean values (also called _conditions_) are used in these control block, which contain examples:
-  * [conditional blocks](IfElse)
-  * [repeat blocks](Loops#repeat)
+Logic blocks are generally used to control [conditional blocks](IfElse) and [repeat blocks](Loops#repeat-while).
 
-One of the many examples from those pages is:
+Here's an example:
 
 ![](if-else.png)
 
 If the value of the variable **x** is greater than 100, the condition is **true**, and the text "What a big number!" is printed.  If the value of **x** is not greater than 100, the condition is **false**, and "That's not very big." is printed.
 
-Boolean values can also be stored in variables and passed to procedures, the same as number, text, and list values.
+Boolean values can also be stored in variables and passed to functions, the same as number, text, and list values.
 
 # Blocks
 
@@ -21,7 +19,7 @@ If a block expects a Boolean value as an input, it usually interprets an absent 
 
 ## Values
 
-A single block, with a dropdown specifying either **true** or **false**, can be used to get a boolean value:
+A single block, with a dropdown specifying either **true** or **false**, can be used to get a Boolean value:
 
 ![](logic-true-false.png)
 
@@ -31,7 +29,7 @@ There are six comparison operators.  Each takes two inputs (normally numbers) an
 
 ![](logic-compare.png)
 
-The six operators are: equals, not equals, less than, less than or equal, greater than, greater than or equal.
+The six operators are: equals, not equals, less than, greater than, less than or equal, greater than or equal.
 
 ## logical operations
 
@@ -49,10 +47,20 @@ The **not** block converts its Boolean input into its opposite.  For example, th
 
 ![](logic-not-true.png)
 
-is false.
+is **false**.
 
 As mentioned above, if no input is provided, a value of **true** is assumed, so the following block produces the value **false**:
 
 ![](logic-not.png)
 
 Leaving an input empty is not recommended, however.
+
+## ternary operator
+
+The ternary block acts like a miniature if-else block.  It takes three inputs; the first input is the Boolean condition to test, the second input is the value to return if the test was **true**, the third input is the value to return if the test was **false**.  In the example below, if the variable **x** is less than 10, then the variable **colour** is set to red, otherwise the variable **colour** is set to green.
+
+![](logic-ternary.png)
+
+A ternary block can always be replaced by an if-else block.  The following two examples are exactly the same as each other.
+
+![](logic-ternary-if.png)
